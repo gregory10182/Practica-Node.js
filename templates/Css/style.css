@@ -1,0 +1,158 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: #CAD8DE;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.identification{
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.identification h1{
+    text-align: center;
+    color: #00A39E;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.identification form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+}
+
+.identification form input{
+    width: 150px;
+    height: 30px;
+    border: 2px solid #00F6ED;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.identification form input:focus{
+    outline: none;
+}
+
+.identification form button{
+    width: 80px;
+    height: 100%;
+    border: 2px solid #00F6ED;
+    border-radius: 5px;
+    margin-left: 5px;
+    background-color: #00A39E;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.chat{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+#mensajes{
+    width: 100%;
+    height: 400px;
+    overflow-y: scroll;
+    padding: 10px 20px;
+    border: 2px solid #00F6ED;
+    border-radius: 10px;
+}
+
+#mensajes .others{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+
+.others div{
+    padding: 10px;
+    max-width: 300px;
+    border: 1px solid #00F6ED;
+    background-color: #7d8386;
+    color: #fff;
+    word-wrap: break-word;
+    text-align: left;
+    border-radius: 20px;
+}
+
+#mensajes .me{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+}
+
+.me div{
+    padding: 10px;
+    max-width: 300px;
+    border: 1px solid #00F6ED;
+    background-color: #00A39E;
+    color: #fff;
+    word-wrap: break-word;
+    text-align: left;
+    border-radius: 20px;
+}
+
+
+
+
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+}
+
+#form #input{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #00F6ED;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+#form #input:focus{
+    outline: none;
+}
+
+#form #btn{
+    width: 80px;
+    height: 100%;
+    border: 2px solid #00F6ED;
+    border-radius: 5px;
+    margin-left: 5px;
+    background-color: #00A39E;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
