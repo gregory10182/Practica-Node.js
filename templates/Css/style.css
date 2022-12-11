@@ -208,6 +208,10 @@ html, body{
         max-width: 50vw;
     }
 
+    .others div{
+        max-width: 50vw;
+    }
+
     .chat #form{
         height: 10%;
         width: 95%;
