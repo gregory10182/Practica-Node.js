@@ -1,5 +1,6 @@
 html, body{
-    height: 100%;
+    height: 100vh;
+    width: 100;
     margin: 0;
 }
 
@@ -15,7 +16,8 @@ html, body{
 }
 
 .identification{
-    width: 500px;
+    width: 26%;
+    min-width: 400px;
     height: 100px;
     padding: 10px;
     margin-bottom: 20px;
@@ -65,8 +67,10 @@ html, body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 500px;
-    height: 500px;
+    width: 26%;
+    min-width: 400px;
+    height: 55%;
+    min-height: 400px;
     padding: 20px;
     background-color: #fff;
     border-radius: 30px;
@@ -74,7 +78,9 @@ html, body{
 
 #mensajes{
     width: 100%;
-    height: 400px;
+    min-width: 300px;
+    height: 75%;
+    min-height: 300px;
     overflow-y: scroll;
     padding: 10px 20px;
     border: 2px solid #00F6ED;
@@ -125,7 +131,7 @@ html, body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 40px;
+    height: 8%;
 }
 
 #form #input{
@@ -156,3 +162,39 @@ html, body{
 ::-webkit-scrollbar {
     display: none;
 }
+
+
+
+@media screen and (max-width: 520px){
+    
+    .identification{
+        width: 100%;
+        height: 20%;
+        border-radius: 0px;
+        margin-bottom: -10px;
+        border: none;
+    }
+
+    .identification h1{
+        margin-top: 30px;
+    }
+    .chat{
+        width: 100%;
+        height: 80%;
+        border-radius: 0px;
+        margin-bottom: 0px;
+        padding: 10px;
+        border: none;
+    }
+
+    .chat #mensajes{
+        height: 70%;
+        width: 80%;
+    }
+
+    .chat #form{
+        height: 10%;
+        width: 90%;
+    }
+}
+    
